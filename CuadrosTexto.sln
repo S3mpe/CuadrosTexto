@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuadrosTexto", "CuadrosTexto\CuadrosTexto.csproj", "{7C77E799-5F63-48FA-9522-B3D35677CEEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C77E799-5F63-48FA-9522-B3D35677CEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C77E799-5F63-48FA-9522-B3D35677CEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C77E799-5F63-48FA-9522-B3D35677CEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C77E799-5F63-48FA-9522-B3D35677CEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27833EE6-283F-4837-9DCF-377BF34E1949}
+	EndGlobalSection
+EndGlobal

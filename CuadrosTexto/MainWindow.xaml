@@ -1,0 +1,22 @@
+﻿<Window x:Class="CuadrosTexto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CuadrosTexto"
+        mc:Ignorable="d"
+        Title="Cuadros de texto" Height="450" Width="800" Icon="starwars.ico">
+    <Grid>
+        <TextBox x:Name="NombreTextBox" HorizontalAlignment="Left" Height="23" Margin="43,73,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"  KeyUp="TextBox_KeyUp" Tag="Nombre del cliente|NombreTextBlock"/>
+        <TextBox x:Name="ApellidoTextBox" HorizontalAlignment="Left" Height="23" Margin="43,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="TextBox_KeyUp" Tag="Apellido del cliente|ApellidoTextBlock"/>
+        <TextBox x:Name="EdadTextBox" HorizontalAlignment="Left" Height="23" Margin="43,238,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" KeyUp="EdadTextBox_KeyUp" Tag="Edad incorrecta"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43,52,0,0" TextWrapping="Wrap" Text="Nombre
+" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43,134,0,0" TextWrapping="Wrap" Text="Apellido" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43,217,0,0" TextWrapping="Wrap" Text="Edad" VerticalAlignment="Top"/>
+        <TextBlock x:Name="NombreTextBlock" HorizontalAlignment="Left" Margin="181,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="127" />
+        <TextBlock x:Name="ApellidoTextBlock"  HorizontalAlignment="Left" Margin="181,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="127" />
+        <TextBlock x:Name="EdadTextBlock" HorizontalAlignment="Left" Margin="181,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="97"/>
+
+    </Grid>
+</Window>
